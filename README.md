@@ -1,5 +1,8 @@
 # SimpleSocialMedia
 A client/server social media program. The server accepts connections from clients through UDP socket connections. This is a simple implementation, there is no user authentication, so clients login by simply entering an int, if the int value does not have an active connection, then the client has logged on as the user identified by the int entered by the client.
+## Instructions
+- Start Server: ./server \<port\>
+- Start Client: ./client \<IP address\> \<port\>
 ## Options
 Once a client connects to the server, the client can
 - Login: client can login to the server
